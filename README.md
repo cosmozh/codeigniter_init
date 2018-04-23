@@ -19,7 +19,6 @@
 <pre><code>sudo chown -R www-data:www-data /var/www</code></pre>
 <pre><code>sudo chmod -R g+rw /var/www</code></pre>
 <pre><code>sudo apt-get install mysql-server</code></pre>
-<pre><code>sudo apte-get install php-mysql</code></pre>
 <pre><code>sudo apt-get install php-mysql</code></pre>
 <pre><code>sudo vim /etc/apache2/apache2.conf</code></pre>
 <pre><code>sudo /etc/init.d/apache2 restart</code></pre>
