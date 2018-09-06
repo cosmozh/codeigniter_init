@@ -1,0 +1,15 @@
+
+
+RewriteEngine on
+RewriteCond $1 !^(index\.php|favicon\.ico|cula|asset|robots\.txt)
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule ^(.*)$ /index.php/$1 [L]
+
+
+php_flag short_open_tag on
+
+php_value upload_max_filesize 128M
+php_value post_max_size 128M
+php_value max_execution_time 3600
+php_value memory_limit 128M
